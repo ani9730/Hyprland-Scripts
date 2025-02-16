@@ -63,11 +63,7 @@ Basic Tips that I learnt by experimenting:
 5) To create a folder, use mkdir -p name in the directory you want to create a folder in terminal.
 6) To remove, you can use rm file name. rm -rf deletes all the files in the directory.
 7) If you want to create,edit in the directories of root, you need to put sudo before the command in order to perform the task or else the file will be read-only.
-8) The AUR helpers:
-a) -S is used to install the packages.
-b) -R is used to remove the packages without the data.
-c)-Rcns is used to completely remove data.
-
+8) The AUR helpers: -R to remove, -S for install, -Rcns to remove completely.
 9)When you are downloading anything, just make sure to review the packages. If they are trusted, then press Q to accept changes.
 10) In kitty terminal, Ctrl+Shift+C is used to copy and Ctrl+Shift+V for paste and Ctrl+ O to save.
 11) There are some theming issues with Gnome apps on this script( idk if others have it). But, I was able to fix it using export ADW_DISABLE_PORTAL=1( **I am Dumb and Idk why or how this fixes the issue, it just fixed!!).
@@ -75,4 +71,6 @@ Also, I installed xdg-desktop-portal-gnome for better compatibility.
 12) If you are using Cachy-OS make sure to read their wiki and apply the gaming tweaks necessary.
 13) The hyprland Script by default installs Dolphin by KDE. The problem here is kwallet which is a dependency which acts as a encryption manager(sort of).What basically happens is you are asked to put password on brave and if you cancelled it and use brave, all your data is gone when you poweroff the system. You cant uninstall it unless uninstall the complete suite including Dolphin. I used gnome files i.e. nautilus( in the AUR) as an alternative. To go root, you have to install nautilus-admin. You can also use Thunar.
 14) Use AUR packages for Arch rather than flatpak or snap(lol) as they provide better compatibility for Arch-Linux.
+
+
 I hope any beginner or dummy can atleast start using hyperland on arch using this. I am also a dummy as of now.
