@@ -67,7 +67,8 @@ Basic Tips that I learnt by experimenting:
 a) -S is used to install the packages.
 b) -R is used to remove the packages without the data.
 c)-Rcns is used to completely remove data.
-9)When you are downloading anything, just amke sure to review the packages. If they are trusted, then press Q to accept changes.
+
+9)When you are downloading anything, just make sure to review the packages. If they are trusted, then press Q to accept changes.
 10) In kitty terminal, Ctrl+Shift+C is used to copy and Ctrl+Shift+V for paste and Ctrl+ O to save.
 11) There are some theming issues with Gnome apps on this script( idk if others have it). But, I was able to fix it using export ADW_DISABLE_PORTAL=1( **I am Dumb and Idk why or how this fixes the issue, it just fixed!!).
 Also, I installed xdg-desktop-portal-gnome for better compatibility.
