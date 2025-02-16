@@ -9,6 +9,10 @@ Tools Used:
 AUR helper: yay, paru
 sudo pacman -S yay-bin paru
 
+Login Screen: SDDM 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
+From https://github.com/Keyitdev/sddm-astronaut-theme
+
 Apps: brave-bin, an-anime-game-launcher-bin, nautilus, nautilus-admin, gnome-software
 1) paru -S brave-bin nautilus nautilus-admin gnome-software 
 2) yay -S an-anime-game-launcher-bin
@@ -57,3 +61,9 @@ b) -R is used to remove the packages without the data.
 c)-Rcns is used to completely remove data.
 9)When you are downloading anything, just amke sure to review the packages. If they are trusted, then press Q to accept changes.
 10) In kitty terminal, Ctrl+Shift+C is used to copy and Ctrl+Shift+V for paste.
+11) There are some theming issues with Gnome apps on this script( idk if others have it). But, I was able to fix it using export ADW_DISABLE_PORTAL=1( **I am Dumb and Idk why or how this fixes the issue, it just fixed!!).
+Also, I installed xdg-desktop-portal-gnome for better compatibility.
+12) If you are using Cachy-OS make sure to read their wiki and apply the gaming tweaks necessary.
+13) The hyprland Script by default installs Dolphin by KDE. The problem here is kwallet which is a dependency which acts as a encryption manager(sort of).What basically happens is you are asked to put password on brave and if you cancelled it used brave, all your data is gone when you poweroff the system. You cant uninstall it unless uninstall the complete suite including Doplin. I used gnome files i.e. nautilus( in the AUR) as an alternative. To go root, you have to install nautilus-admin. You can also use Thunar.
+
+I hope any beginner or dummy can atleast start using hyperland on arch using this. I am also a dummy as of now.
